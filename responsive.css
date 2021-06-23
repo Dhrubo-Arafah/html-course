@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .left, .right{
+        width: 100%;
+    }
+
+    .nav .container{
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .brand{
+        width: 95%;
+    }
+  .nav .links{
+       text-align: center;
+      display: flex;
+      width: 100%;
+        background-color: white;
+       justify-content: center;
+  }
+  .nav .links a{
+      text-align: center;
+  }
+  #home{
+      height: 95vh;
+  }
+
+
+  #home .container{
+      flex-direction: column;
+      height: 900px;
+     
+  }
+  #home h1{
+      line-height: 1.2;
+      font-size: 28px;
+  }
+
+.features .container{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+}
+
+.features .single{
+    width: 95%;
+    margin: 0px;
+}
+
+#leaderboard .container{
+    height: auto;
+    flex-direction: column;
+}
+.wrapper{
+    flex-direction: column;
+}
+#leaderboard .single{
+    width: 90%;
+    margin: 15px 0;
+}
+}
